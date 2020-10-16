@@ -1,8 +1,8 @@
 <?php
 
-namespace Madcoda\Youtube\Tests;
+namespace TamTam\Youtube\Tests;
 
-use Madcoda\Youtube\Youtube;
+use TamTam\Youtube\Youtube;
 
 /**
  * Class YoutubeTest

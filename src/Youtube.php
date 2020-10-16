@@ -1,8 +1,8 @@
 <?php
 
-namespace Madcoda\Youtube;
+namespace TamTam\Youtube;
 
-use Madcoda\Youtube\Constants;
+use TamTam\Youtube\Constants;
 
 /**
  * Youtube Data API (mainly apis for retrieving data)

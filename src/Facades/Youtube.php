@@ -1,6 +1,6 @@
 <?php 
 
-namespace Madcoda\Youtube\Facades;
+namespace TamTam\Youtube\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -8,6 +8,6 @@ class Youtube extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'Madcoda\Youtube\Youtube';
+        return 'TamTam\Youtube\Youtube';
     }
 }

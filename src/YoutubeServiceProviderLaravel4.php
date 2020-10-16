@@ -1,9 +1,9 @@
 <?php 
 
-namespace Madcoda\Youtube;
+namespace TamTam\Youtube;
 
 use Config;
-use Madcoda\Youtube\Youtube;
+use TamTam\Youtube\Youtube;
 use Illuminate\Support\ServiceProvider;
 
 class YoutubeServiceProviderLaravel4 extends ServiceProvider
@@ -33,7 +33,7 @@ class YoutubeServiceProviderLaravel4 extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bindShared('Madcoda\Youtube\Youtube', function ($app) {
+        $this->app->bindShared('TamTam\Youtube\Youtube', function ($app) {
             return new Youtube($app['config']->get('php-youtube-api::youtube'));
         });
     }
@@ -45,6 +45,6 @@ class YoutubeServiceProviderLaravel4 extends ServiceProvider
      */
     public function provides()
     {
-        return array('Madcoda\Youtube\Youtube');
+        return array('TamTam\Youtube\Youtube');
     }
 }

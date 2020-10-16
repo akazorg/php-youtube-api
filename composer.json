@@ -14,7 +14,6 @@
         }
     ],
     "support":{
-            "email":"jason@madcoda.com",
             "issues":"https://github.com/tambait/php-youtube-api/issues"
     },
     "require": {
@@ -27,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Madcoda\\Youtube\\": "src"
+            "TamTam\\Youtube\\": "src"
         },
         "classmap": ["src/compat.php"]
     }

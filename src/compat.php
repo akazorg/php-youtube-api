@@ -1,12 +1,12 @@
 <?php
 
-namespace Madcoda;
+namespace TamTam;
 
 /**
- * This is an alias class to Madcoda\Youtube\Youtube
- * for backward compatibility, you should use Madcoda\Youtube\Youtube from now on
+ * This is an alias class to TamTam\Youtube\Youtube
+ * for backward compatibility, you should use TamTam\Youtube\Youtube from now on
  */
 class compat extends Youtube\Youtube
 {
 }
-//class_alias('Madcoda\\Youtube', 'Madcode\\Youtube\\Youtube');
+//class_alias('TamTam\\Youtube', 'Madcode\\Youtube\\Youtube');

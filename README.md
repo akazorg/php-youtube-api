@@ -37,7 +37,7 @@ For the functions implemented in this library, please visit [API Reference](http
 ### Example usage with pure PHP (with composer)
 ```php
 require 'vendor/autoload.php';
-$youtube = new Madcoda\Youtube\Youtube(array('key' => '* Your API key here *'));
+$youtube = new TamTam\Youtube\Youtube(array('key' => '* Your API key here *'));
 $video = $youtube->getVideoInfo('rie-hPVJ7Sw');
 ```
 
@@ -64,4 +64,4 @@ or send email to jason@madcoda.com :)
 
 ## License
 
-Madcoda php-youtube-api is licensed under the [MIT License](http://opensource.org/licenses/MIT).
+TamTam php-youtube-api is licensed under the [MIT License](http://opensource.org/licenses/MIT).
