@@ -1,5 +1,5 @@
 ### /Users/jason/.gitignore-boilerplates/Global/OSX.gitignore
-.lock
+composer.lock
 .DS_Store
 .AppleDouble
 .LSOverride
