@@ -6,7 +6,7 @@
 
 ## Note
 
-This project was created (as detached fork) because original project [Madcoda PHP Youtube API](https://github.com/madcoda/php-youtube-api) seems to be abandoned and change in Youtube API (depreciation of invideoPromotion part) are breaking the code.
+This project was created (as detached fork) because original project [Madcoda PHP Youtube API](https://github.com/madcoda/php-youtube-api) seems to be abandoned and change in Youtube API (depreciation of invideoPromotion part) is breaking the code.
 
 Version 1.2.5 fixes the issue.
 
