@@ -12,6 +12,24 @@ Version 1.2.5 fixes the issue.
 
 ---
 
+## Install
+
+Run the following command in your command line shell in your php project
+
+```sh
+$ composer require tambait/php-youtube-api:^1.2
+```
+
+Or you can manually edit composer.json and then run `composer update`
+
+```
+"require": {
+    "tambait/php-youtube-api": "^1.2"
+}
+```
+
+---
+
 Below you can find parts of README.md file / description from the **original project**.
 
 ---
